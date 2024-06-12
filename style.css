@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-    padding: 10px 5%;
+    padding: 10px 12%;
 }
 
 nav {
@@ -106,7 +106,8 @@ p {
 .row {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    gap: 10%;
 }
 
 .about-col-1 {
@@ -194,8 +195,9 @@ p {
 }
 
 #services p {
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    /* font-weight: 300; */
 }
 
 .services-list {
@@ -442,7 +444,7 @@ nav .fas {
     }
 
     .container {
-        padding: 10px 4%;
+        padding: 10px 10%;
     }
 
     #contact p {
@@ -503,6 +505,9 @@ nav .fas {
         height: 100%;
         overflow-x: hidden;
     }
+    .row{
+        flex-wrap: wrap;
+    }
 
     nav .fas {
         display: block;
@@ -546,13 +551,13 @@ nav .fas {
     }
 
     .header-text h1 {
-        font-size: 20px;
+        font-size: 30px;
         margin-top: 15px;
         text-align: center;
     }
 
     .header-text p {
-        font-size: 21px;
+        font-size: 35px;
         text-align: center;
         padding-top: 19%;
     }
@@ -560,11 +565,11 @@ nav .fas {
     .header-text {
         position: absolute;
         right: 0%;
-        bottom: 0%;
+        bottom: -1%;
         background: #000000;
         background: linear-gradient(to bottom, #4343430f, #000000);
         width: 100%;
-        padding-bottom: 55px;
+        padding-bottom: 25%;
     }
 
     #about .tab-title p {
